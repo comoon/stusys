@@ -11,13 +11,13 @@ class College {
     String name
 
     /**
-     * 学院的编码
+     * 学院的编号
      */
-    String  number
+    String  collegeID
+
     /**
     *  学院的概述
      */
-
     String description
 
     /**
@@ -26,6 +26,6 @@ class College {
     static hasMany = [majors: Major]
 
     static constraints = {
-        number  unique: true
+        collegeID  unique: true
     }
 }

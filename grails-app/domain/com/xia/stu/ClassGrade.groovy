@@ -6,9 +6,9 @@ package com.xia.stu
 class ClassGrade {
 
     /**
-     * 入学年份
+     * 入学日期
      */
-    int year
+    int indate
      /**
     *  班级名称
       */

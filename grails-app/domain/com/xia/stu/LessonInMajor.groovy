@@ -8,7 +8,7 @@ class LessonInMajor {
     /**
      * 课程的类别
      */
-    LessonGrade lessonGrade
+    Category lessonGrade
     /**
      *引用专业这个类
      */
@@ -18,7 +18,7 @@ class LessonInMajor {
     /**
      * 引用课程这个类
      */
-    Lesson lesson
+    Course lesson
 
     /**
      * 专业内部课程是必修课

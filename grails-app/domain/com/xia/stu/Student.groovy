@@ -25,10 +25,41 @@ class Student {
      */
     String xuehao
 
+
+    /**
+     * 学生的年龄
+     */
+    String age
+
+    /**
+     * 学生的民族
+     */
+    String nation
+
+    /**
+     * 学生的籍贯
+     */
+    String nativeplace
+
+    /**
+     * 学生的专业
+     */
+    String majorName
+
     /**
      * 学生的性别
      */
     Sex sex
+
+    /**
+     * 学生的政治面貌
+     */
+     String status
+
+    /**
+     * 学生的出生日期
+     */
+    String birthday
 
     /**
      * 学生的班级
